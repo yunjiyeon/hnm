@@ -1,0 +1,26 @@
+// & yarn add sass
+
+:root{
+  --color-point : #e00026;
+  --color-gray : #a0a0a0;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  color: #222222;
+}
