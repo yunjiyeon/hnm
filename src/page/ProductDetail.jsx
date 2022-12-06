@@ -41,7 +41,8 @@ const ProductDetail = () => {
 						</div>
 					</div>
 					<div className="detail-price">₩ {product?.price}</div>
-					{product?.new === true ? <div className="new">신제품</div> : ""}
+					{product?.new === true ? <div className="new">NEW</div> : ""}
+          {product?.choice === true ? <div className="event">Weekly Best Seller</div> : ""}
 
 					<div>
 						<Dropdown className="detail-dropdown">
